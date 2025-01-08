@@ -1,0 +1,81 @@
+<!DOCTYPE > 
+<html lang = "en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" id="page_style"/>
+        <link rel = "stylesheet" href = "css/skins/color-1.css">
+    </head>
+    <body> 
+        <!-- Main Container -->
+        <div class = "main-container">
+            <!-- Aside Start Start -->
+            <div class = "aside">
+                <div class="logo">
+                    <a href="#"><span>T</span>homas</a>
+                </div>
+                <ul class = "nav">
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="#" class = "active"> Portfolio</a></li>
+                    <li><a href="qualifications.html">Qualifications</a></li>
+                    <li><a href="chatGPT.html"> AI Game </a></li>
+                    <li><a href="service.html"> Service</a></li>
+                    <li><button class="button-1" onclick = "light_mode()"> Toggle Styles</button></li>
+                    <li><button class="button-2" onclick = "dark_mode()"> Toggle Styles</button></li>
+                </ul>
+            </div>
+            <!-- Aside End -->
+            <!-- Main Start -->
+            <div class = "main-content">
+             <!---- portfolio section start-->
+             <section class="about section">
+                <h2> Here are my projects! </h2>
+                <div class="textwrap">
+                            
+                            <h2> City Metrics & Dogs</h2>
+                                <p>
+                                    I am currently working on a project that involves compiling quality of life metrics for cities in the United States
+                                    and data from dog shelters from the <a href="https://www.petfinder.com/developers/">Petfinder Public API</a>. Many dog shelters across the United States advertise their 
+                                    dogs on Petfinder for interested adopters for a small fee, and I am interested in the relationship between <a href="https://goteleport.com/docs/api/introduction/"> quality of life metrics</a> (such as C02 emissions, financial information, etc.) and 
+                                    the types and number of dogs in shelters. Overall there are a million different ways to analyze all of the different dimensions of data from both of these sources, and I am 
+                                    excited to be able to compile this information.
+
+                                </p>
+                            
+                </div>
+                <div class="textwrap">
+                    <h2> Urban Dictionary & Sentiment Analysis</h2>
+                        <p>
+                            Over the summer of 2023, I worked  on a project that involved web scraping <a href="https://urbandictionary.com">Urban Dictionary</a> for different groups of objects to determine 
+                            the sentiment value of their definitions. I used the Python library <a href="https://beautiful-soup-4.readthedocs.io/en/latest/">BeautifulSoup</a> to scrape the website and the <a href="https://www.nltk.org">Natural Language Toolkit (nltk)</a> to determine the sentiment value of the definitions.
+                            I found a few major variations in populations of words, with the most clear one being that for some reason, a man's name is significantly more likely to have a negative sentiment than a females name. Additionally, the sentiment value of words vary heavily based on which language is being spoken. 
+
+                        </p>
+                </div>
+                <div class = "textwrap">
+                            <h2> Heart Rate Synchrony </h2>
+                                <p>
+                                A famous case study in psychology is the synchronization of heart rate between a mother and her child whenever she is caring for them.
+                                The logic of this phenomena has been extended to research such that any team work can be measured by heart-rate synchrony. Last year, I worked in the Texas A&M 
+                                Neuroergonomics lab to measure synchrony in a human-robot team as opposed to an all human team. This involved taking the ECG of participants during the expirement (a measure of their heart rate) and using
+                                mathematical models in python and R to analyze the synchrony between teams. The findings of this research can be found in <a href = https://journals.sagepub.com/doi/10.1177/21695067231194337?icid=int.sj-abstract.similar-articles.5> this paper</a>.
+                                </p>
+
+                </div>
+                <h2>These are all soon to be posted on my <a href="https://github.com/thomasbolf"> Github!</a></h2>
+            </div>
+               
+                </div>
+                        
+            </section>
+                <!--- portfolio section end-->
+            </div>
+            <!-- Main end-->
+
+        </div>
+        <!-- Container end-->
+        <!-- JS FILES-->
+        <script src = "js/script.js"></script>
+    </body>
+</html>
